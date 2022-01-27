@@ -5,93 +5,99 @@
         <link rel="stylesheet" href="style.css">
         <title>welcome!</title>
     </head>
-    <div class="cp_loading">
+    <div class="defalt"><div class="row"><div class="eight columns code_cont preview_blk"><div class="rating_blk"><div class="rating">ニャン易度  <span class="filled-rate2"></span><span class="empty-rate"></span></div></div><style media="screen">
+.cp_loading * {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.cp_loading {
+width: 300px;
+height: 200px;
+margin: 2em auto;
+padding: 0.5em;
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+.cp_loading19 {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 42px;
+height: 42px;
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+}
+.cp_loading19 .cp_item {
+display: inline-block;
+width: 14px;
+height: 14px;
+margin: 0px 2px;
+opacity: 1;
+}
+.cp_loading19 .cp_item {
+-webkit-animation: loading19 2s infinite ease;
+animation: loading19 2s infinite ease;
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.cp_loading19 .cp_item:nth-child(1) {
+background: #FF7043;
+}
+.cp_loading19 .cp_item:nth-child(2) {
+-webkit-animation-delay: 0.5s;
+animation-delay: 0.5s;
+background: #42A5F5;
+}
+.cp_loading19 .cp_item:nth-child(3) {
+-webkit-animation-delay: 1.5s;
+animation-delay: 1.5s;
+background: #EC407A;
+}
+.cp_loading19 .cp_item:nth-child(4) {
+-webkit-animation-delay: 1s;
+animation-delay: 1s;
+background: #66BB6A;
+}
+@-webkit-keyframes loading19 {
+0% {
+opacity: 0.7;
+}
+30% {
+opacity: 0.5;
+}
+60% {
+opacity: 0;
+}
+75% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+@keyframes loading19 {
+0% {
+opacity: 0.7;
+}
+30% {
+opacity: 0.5;
+}
+60% {
+opacity: 0;
+}
+75% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+</style>
+<div class="cp_loading">
 <div class="cp_loading19">
 <div class="cp_item"></div>
 <div class="cp_item"></div>
 <div class="cp_item"></div>
 <div class="cp_item"></div>
 </div>
-</div></div><div class="eight columns code_cont"><div class="copybtn"><button class="btn" data-clipboard-text=""><svg class="svg_logo copy_img"><use xlink:href="#copy_img" /></svg></button><pre title="html"><code class="html">&lt;div class=&quot;cp_loading19&quot;&gt;
-	&lt;div class=&quot;cp_item&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;cp_item&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;cp_item&quot;&gt;&lt;/div&gt;
-	&lt;div class=&quot;cp_item&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</code></pre></div><div class="copybtn"><button class="btn" data-clipboard-text=""><svg class="svg_logo copy_img"><use xlink:href="#copy_img" /></svg></button><pre title="css"><code class="css">*, *:before, *:after {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-}
-.cp_loading19 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 42px;
-	height: 42px;
-	-webkit-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
-}
-.cp_loading19 .cp_item {
-	display: inline-block;
-	width: 14px;
-	height: 14px;
-	margin: 0px 2px;
-	opacity: 1;
-}
-.cp_loading19 .cp_item {
-	-webkit-animation: loading19 2s infinite ease;
-	        animation: loading19 2s infinite ease;
-	-webkit-transform: rotate(45deg);
-	        transform: rotate(45deg);
-}
-.cp_loading19 .cp_item:nth-child(1) {
-	background: #FF7043;
-}
-.cp_loading19 .cp_item:nth-child(2) {
-	-webkit-animation-delay: 0.5s;
-	        animation-delay: 0.5s;
-	background: #42A5F5;
-}
-.cp_loading19 .cp_item:nth-child(3) {
-	-webkit-animation-delay: 1.5s;
-	        animation-delay: 1.5s;
-	background: #EC407A;
-}
-.cp_loading19 .cp_item:nth-child(4) {
-	-webkit-animation-delay: 1s;
-	        animation-delay: 1s;
-	background: #66BB6A;
-}
-@-webkit-keyframes loading19 {
-	0% {
-		opacity: 0.7;
-	}
-	30% {
-		opacity: 0.5;
-	}
-	60% {
-		opacity: 0;
-	}
-	75% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-@keyframes loading19 {
-	0% {
-		opacity: 0.7;
-	}
-	30% {
-		opacity: 0.5;
-	}
-	60% {
-		opacity: 0;
-	}
-	75% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}</code></pre></div></div></div></div>
