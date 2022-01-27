@@ -5,15 +5,106 @@
         <link rel="stylesheet" href="style.css">
         <title>welcome!</title>
     </head>
-    <body>
-        <div class="cp_loading17">
-	             <div class="cp_item"></div>
-	             <div class="cp_item"></div>
-	             <div class="cp_item"></div>
-	             <div class="cp_item"></div>
-	             <div class="cp_item"></div>
-        </div>
-        *, *:before, *:after {
+<div class="defalt"><div class="row"><div class="eight columns code_cont preview_blk"><div class="rating_blk"><div class="rating">ニャン易度  <span class="filled-rate2"></span><span class="empty-rate"></span></div></div><style media="screen">
+.cp_loading * {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.cp_loading {
+width: 300px;
+height: 200px;
+margin: 2em auto;
+padding: 0.5em;
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+.cp_loading17 {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 100px;
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+}
+.cp_loading17 .cp_item {
+display: inline-block;
+width: 10px;
+height: 10px;
+margin-right: 1px;
+margin-left: 1px;
+-webkit-animation: loading17 1s linear infinite normal;
+animation: loading17 1s linear infinite normal;
+-webkit-animation-delay: 0;
+animation-delay: 0;
+opacity: 0.1;
+background-color: #ff7043;
+filter: alpha(opacity=10);
+}
+.cp_loading17 .cp_item:nth-child(1) {
+-webkit-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+.cp_loading17 .cp_item:nth-child(2) {
+-webkit-animation-delay: 0.2s;
+animation-delay: 0.2s;
+}
+.cp_loading17 .cp_item:nth-child(3) {
+-webkit-animation-delay: 0.1s;
+animation-delay: 0.1s;
+}
+.cp_loading17 .cp_item:nth-child(4) {
+-webkit-animation-delay: 0.2s;
+animation-delay: 0.2s;
+}
+.cp_loading17 .cp_item:nth-child(5) {
+-webkit-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+@-webkit-keyframes loading17 {
+0% {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+opacity: 1;
+filter: alpha(opacity=100);
+}
+100% {
+-webkit-transform: scale(0.7);
+transform: scale(0.7);
+opacity: 0.1;
+filter: alpha(opacity=10);
+}
+}
+@keyframes loading17 {
+0% {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+opacity: 1;
+filter: alpha(opacity=100);
+}
+100% {
+-webkit-transform: scale(0.7);
+transform: scale(0.7);
+opacity: 0.1;
+filter: alpha(opacity=10);
+}
+}
+</style>
+<div class="cp_loading">
+<div class="cp_loading17">
+<div class="cp_item"></div>
+<div class="cp_item"></div>
+<div class="cp_item"></div>
+<div class="cp_item"></div>
+<div class="cp_item"></div>
+</div>
+</div></div><div class="eight columns code_cont"><div class="copybtn"><button class="btn" data-clipboard-text=""><svg class="svg_logo copy_img"><use xlink:href="#copy_img" /></svg></button><pre title="html"><code class="html">&lt;div class=&quot;cp_loading17&quot;&gt;
+	&lt;div class=&quot;cp_item&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;cp_item&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;cp_item&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;cp_item&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;cp_item&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre></div><div class="copybtn"><button class="btn" data-clipboard-text=""><svg class="svg_logo copy_img"><use xlink:href="#copy_img" /></svg></button><pre title="css"><code class="css">*, *:before, *:after {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }
@@ -81,4 +172,4 @@
 		        transform: scale(0.7);
 		opacity: 0.1;
 	}
-}
+}</code></pre></div></div></div></div>
