@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>welcome!</title>
+    </head>
+    <div class="cp_loading19">
+	         <div class="cp_item"></div>
+	         <div class="cp_item"></div>
+	         <div class="cp_item"></div>
+         	 <div class="cp_item"></div>
+           *, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.cp_loading19 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 42px;
+	height: 42px;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+.cp_loading19 .cp_item {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0px 2px;
+	opacity: 1;
+}
+.cp_loading19 .cp_item {
+	-webkit-animation: loading19 2s infinite ease;
+	        animation: loading19 2s infinite ease;
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.cp_loading19 .cp_item:nth-child(1) {
+	background: #FF7043;
+}
+.cp_loading19 .cp_item:nth-child(2) {
+	-webkit-animation-delay: 0.5s;
+	        animation-delay: 0.5s;
+	background: #42A5F5;
+}
+.cp_loading19 .cp_item:nth-child(3) {
+	-webkit-animation-delay: 1.5s;
+	        animation-delay: 1.5s;
+	background: #EC407A;
+}
+.cp_loading19 .cp_item:nth-child(4) {
+	-webkit-animation-delay: 1s;
+	        animation-delay: 1s;
+	background: #66BB6A;
+}
+@-webkit-keyframes loading19 {
+	0% {
+		opacity: 0.7;
+	}
+	30% {
+		opacity: 0.5;
+	}
+	60% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes loading19 {
+	0% {
+		opacity: 0.7;
+	}
+	30% {
+		opacity: 0.5;
+	}
+	60% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+    </div>
+  
