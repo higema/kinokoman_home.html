@@ -26,7 +26,8 @@ header .headline{
   margin: 0 20px;
 }
 
-.btn-circle-stitch {
+.fixed_btn {
+  position: fixed;
   display: inline-block;
   text-decoration: none;
   background: #87befd;
