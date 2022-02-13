@@ -27,6 +27,7 @@ header .headline{
 }
 
 .btn-circle-stitch {
+  position: fixed;
   display: inline-block;
   text-decoration: none;
   background: #87befd;
