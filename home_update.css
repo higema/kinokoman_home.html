@@ -26,28 +26,39 @@ header .headline{
   margin: 0 20px;
 }
 
-.fixed_btn {
+#pageTop {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  padding: 6px 40px;
-  display: inline-block;
-  text-decoration: none;
-  background: #87befd;
-  color: #FFF;
-  width: 65px;
-  height: 80px;
-  border-radius: 50%;
-  text-align: center;
-  overflow: hidden;
-  box-shadow: 0px 0px 0px 5px #87befd;
-  border: dashed 1px #FFF;
-  transition: .4s;
+  bottom: 20px;
+  right: 20px;
 }
 
-.fixed_btn:hover {
-  background: #668ad8;
-  box-shadow: 0px 0px 0px 5px #668ad8;
+ 
+
+#pageTop i {
+  padding-top: 6px
+}
+
+ 
+
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 8px 0 0 8px;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  background-color: #9FD6D2;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+ 
+
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 footer{
