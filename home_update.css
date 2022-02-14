@@ -26,39 +26,41 @@ header .headline{
   margin: 0 20px;
 }
 
-#pageTop {
+.pagetop {
+  height: 400px;
+  position: relative;
+  background-image:
+   linear-gradient(#ccc 50%, transparent 50%, transparent);
+  background-size: 10px 20px;
+}
+
+.pagetop-btn {
+  width: 40px;
+  height: 40px;
+  background: #333;
+  border-radius: 3px;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  right: 30px;
+  bottom: 30px;
+  transition: .8s;
+  
 }
 
- 
-
-#pageTop i {
-  padding-top: 6px
+.pagetop-btn:hover {
+  opacity: .8;
 }
 
- 
-
-#pageTop a {
-  display: block;
-  z-index: 999;
-  padding: 8px 0 0 8px;
-  border-radius: 30px;
-  width: 35px;
-  height: 35px;
-  background-color: #9FD6D2;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-}
-
- 
-
-#pageTop a:hover {
-  text-decoration: none;
-  opacity: 0.7;
+.pagetop-btn::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  border-right: 2px solid #eee;
+  border-top: 2px solid #eee;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  z-index: 1;
+  transform: rotate(-45deg)
 }
 
 footer{
