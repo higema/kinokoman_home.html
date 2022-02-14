@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>HOME_UPDATE</title>
   <link rel="stylesheet" type="text/css" href="home_update.css">
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
 <!-- header -->
@@ -47,15 +49,8 @@
   <br>
   <p><font size="5">現在準備中…</font></p>
   <br>
-  <button class="fixed_btn"><a href="#title"><font size="3">TOP</a></font></button>
+  <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
   <script type="text/javascript">
-    $(function(){
-  　$("fixed_btn").on("click", function(){
-    $("html, body").animate({scrollTop: 0 }, 1000, "swing");
-  　});
-　　});
-  </script>
-   <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
   <footer>
 　　<ul class="footer-menu">
      <li>home ｜</li>
