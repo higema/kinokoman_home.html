@@ -1,7 +1,8 @@
-body {
-　　background-color: #de2f2f;
-　　color: #ffffff;
-}
+body{
+       /* 背景色指定 */
+    background-color:#10100E;
+    color:#cccccc;
+    }
 
 a.cp_btn {
 	position: relative;
