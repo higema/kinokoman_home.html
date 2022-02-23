@@ -55,7 +55,7 @@ header .headline{
 	        box-sizing: border-box;
 }
 .cp_navi {
-	position: relative;
+	position: fixed;
 	overflow: hidden;
 	width: 360px;
 	height:360px;
