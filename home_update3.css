@@ -91,6 +91,8 @@ header .headline{
 	overflow: hidden;
 	width: 360px;
 	height:360px;
+	float:right;
+　　　　 margin-right:-100px;
 }
 .cp_navi #cp_sidenav a {
 	font-size: 20px;
