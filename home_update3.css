@@ -26,29 +26,7 @@ header .headline{
   margin: 0 20px;
 }
 
-.fixed_btn {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  padding: 6px 40px;
-  display: inline-block;
-  text-decoration: none;
-  background: #87befd;
-  color: #FFF;
-  width: 65px;
-  height: 80px;
-  border-radius: 50%;
-  text-align: center;
-  overflow: hidden;
-  box-shadow: 0px 0px 0px 5px #87befd;
-  border: dashed 1px #FFF;
-  transition: .4s;
-}
 
-.fixed_btn:hover {
-  background: #668ad8;
-  box-shadow: 0px 0px 0px 5px #668ad8;
-}
 
 .pagetop {
 }
